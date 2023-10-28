@@ -267,7 +267,7 @@ section {
     }
 
     .menu_btn {
-        background: url(./menu-burger.png)no-repeat;
+        background: url(./icons/menu-burger.png)no-repeat;
         background-size: 30px;
         background-position: center;
         position: absolute;
@@ -280,7 +280,7 @@ section {
 
     .menu_btn.active {
         z-index: 500;
-        background: url(./cross.png)no-repeat;
+        background: url(./icons/cross.png)no-repeat;
         background-size: 18px;
         background-position: center;
         transition: 0.3s ease-in-out;
