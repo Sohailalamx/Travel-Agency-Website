@@ -262,8 +262,13 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border-radius: 5px;
-        box-shadow: 0px 5px 25px rgb(0 0 0 / 50%);
+/*         border-radius: 5px;
+        box-shadow: 0px 5px 25px rgb(0 0 0 / 50%); */
+      
+        border-radius: 10px;
+        box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(6px);
     }
 
     .menu_btn {
